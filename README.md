@@ -15,7 +15,8 @@ Follow instructions and give the name of your google drive: mygoogledrive
 You can press ENTER and forgot Google application client id and client secret, 
 in the end, your browser will open and ask you is your want to rclone access to your google account. Allow it and come back to your terminal and accept it. 
 
-```2019/07/16 16:27:20 NOTICE: Config file "/home/sk/.config/rclone/rclone.conf" not found - using defaults
+```
+2019/07/16 16:27:20 NOTICE: Config file "/home/sk/.config/rclone/rclone.conf" not found - using defaults
 No remotes found - make a new one
 n) New remote
 r) Rename remote
@@ -23,7 +24,8 @@ c) Copy remote
 s) Set configuration password
 q) Quit config
 n/r/c/s/q> n
-name> mygoogledrive```
+name> mygoogledrive
+```
 
 
 ### Mount your drive
@@ -31,8 +33,10 @@ name> mygoogledrive```
 Example if you want your drive mount in your desktop, change your yourusername in the code.
 It is possible the language is different (Germany, France, Russia...) adapt the code
 
-```mkdir /home/yourusername/Desktop
-rclone mount mygoogledrive: ~/drive/```
+```
+mkdir /home/yourusername/Desktop
+rclone mount mygoogledrive: ~/drive/
+```
 
 ### Rename folders which you want to send to the drive
 
