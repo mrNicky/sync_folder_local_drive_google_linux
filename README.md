@@ -31,10 +31,8 @@ name> mygoogledrive```
 Example if you want your drive mount in your desktop, change your yourusername in the code.
 It is possible the language is different (Germany, France, Russia...) adapt the code
 
-```
-mkdir /home/yourusername/Desktop
-rclone mount mygoogledrive: ~/drive/
-```
+```mkdir /home/yourusername/Desktop
+rclone mount mygoogledrive: ~/drive/```
 
 ### Rename folders which you want to send to the drive
 
